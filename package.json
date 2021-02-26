@@ -1,0 +1,60 @@
+{
+  "name": "001_my_gshopc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "b": "vue-cli-service build",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "s": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "better-scroll": "^2.0.6",
+    "core-js": "^3.6.5",
+    "mint-ui": "^2.2.13",
+    "mockjs": "^1.1.0",
+    "swiper": "5.0.3",
+    "vant": "^2.11.2",
+    "vee-validate": "2.2.15",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.17.3",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "lib-flexible": "^0.3.2",
+    "postcss-px2rem": "^0.3.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "3.0.2",
+    "vue-cli-plugin-i18n": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
